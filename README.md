@@ -6,7 +6,6 @@ When 'count' is specified, it will write an output .csv file with the top custom
 When 'spend' is specified, it will write an output .csv file with the top customers by predicted total monetary purchases.
 
 ## Installation
-#### (Recommended to use virtual environment)
 
 If using virtual env:
 
