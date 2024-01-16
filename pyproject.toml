@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cust-eval"
+authors = [
+    {name = "David Ott", email = "davidott4@gmail.com"}
+]
+description = "Simple package for measuring CLV"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "pandas",
+    "argparse",
+    "Lifetimes" 
+]
+[project.scripts]
+cust-eval = "cust_eval.__main__:main"
