@@ -10,24 +10,24 @@ When 'spend' is specified, it will write an output .csv file with the top custom
 
 If using virtual env:
 
-$ python -m venv venv
-$ source venv/bin/activate 
+	$ python -m venv venv
+	$ source venv/bin/activate 
 
 
 Then navigate to the this folder and run:
 
-$ pip install -q build
-$ python -m pip install .
+	$ pip install -q build
+	$ python -m pip install .
 
 
 
 
 ## Usage
-$ cust-eval count
+	$ cust-eval count
 
-	-or-
+-or-
 
-$ cust-eval spend
+	$ cust-eval spend
 
 
 #### Parameters
@@ -41,8 +41,8 @@ $ cust-eval spend
 
 
 #### Example Usage
-$ cust-eval [count or spend] -n [number of customers] --input [input .csv] --output [output .csv file]
+		$ cust-eval [count or spend] -n [number of customers] --input [input .csv] --output [output .csv file]
 
-		for example:
+for example:
 
-$ cust-eval spend -n 50 --input data.csv --output out.csv
+		$ cust-eval spend -n 50 --input data.csv --output out.csv
