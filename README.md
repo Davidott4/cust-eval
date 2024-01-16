@@ -41,7 +41,7 @@ Then navigate to the this folder and run:
 
 
 #### Example Usage
-		$ cust-eval [count or spend] -n [number of customers] --input [input .csv] --output [output .csv file]
+$ cust-eval [count or spend] -n [number of customers] --input [input .csv] --output [output .csv file]
 
 for example:
 
