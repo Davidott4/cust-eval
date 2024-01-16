@@ -10,10 +10,11 @@ When 'spend' is specified, it will write an output .csv file with the top custom
 
 If using virtual env:
 
-$ python -m 
+$ python -m venv venv
 $ source venv/bin/activate 
 
-Run:
+
+Then navigate to the this folder and run:
 
 $ pip install -q build
 $ python -m pip install .
@@ -32,12 +33,14 @@ $ cust-eval spend
 #### Parameters
 
 -n 			: Top (N) customers will be saved.
+
 --input 	: Filepath of input .csv file
+
 --output 	: Filepath (or folder) to write output .csv file.
 
 
 
-#### Example
+#### Example Usage
 $ cust-eval [count or spend] -n [number of customers] --input [input .csv] --output [output .csv file]
 
 		for example:
